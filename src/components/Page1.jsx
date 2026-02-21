@@ -1,6 +1,6 @@
 export function Page1() {
   return (
-   <section id="hero" className="w-full h-screen flex flex-col items-center justify-center gap-[1em] relative z-10">
+   <section id="hero" className="w-full h-screen flex flex-col items-center justify-center gap-[2em] relative z-10">
         <h1 className="text-9xl text-center">
           digital <br /> Evolution
         </h1>
