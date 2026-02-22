@@ -11,7 +11,7 @@ export function Page3(){
         </div>
       </div>
 
-      <div className="scan-container w-[280px] h-[480px] border border-black rounded-[0.5em]">
+      <div className="scan-container w-[300px] h-[520px] border border-black rounded-[0.5em]">
 
       </div>
 
