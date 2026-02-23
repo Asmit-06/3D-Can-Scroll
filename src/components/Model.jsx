@@ -4,10 +4,12 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 import { useRef, useEffect } from "react";
+import beep from "/src/assets/single_beep.mp3";
 export  function Model() {
   const { scene } = useGLTF("/src/assets/josta.glb");
   const modelRef = useRef();
-
+  const audioRef = useRef(new Audio(beep));
+  
   useGSAP(()=>{
     const model = modelRef.current;
 
@@ -31,7 +33,7 @@ export  function Model() {
       yoyo:true,
       ease:"power1.inOut",
       duration:1,
-      pause:false
+      paused:false
     })
 
     const tl = gsap.timeline({
@@ -58,11 +60,17 @@ export  function Model() {
         end: "+=100%",
         scrub: 1,
         pin:true,
+        
       }
     });
     
     tl2.to(model.rotation, {
-      y: Math.PI * 4
+      y: Math.PI * 4,
+      onComplete: () => {
+        audioRef.current.currentTime = 0;
+        audioRef.current.play().catch(() => {});
+      }
+    
     });
 
     tl2.fromTo(model.scale,{
@@ -78,8 +86,9 @@ export  function Model() {
       scale:1,
     },{
       scale:0,
+      duration:1,
       ease:"power1.out"
-    },"<")
+    })
   },[])
   return <primitive object={scene} scale={1} ref={modelRef}  castShadow
   receiveShadow />;
