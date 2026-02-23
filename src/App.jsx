@@ -7,6 +7,7 @@ import "./App.css";
 import { Model } from "./components/Model";
 import { Environment} from "@react-three/drei";
 import * as THREE from "three";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <Page2 />
       <Page3 />
       <Page4 />
+      <SpeedInsights />
     </>
   );
 }
