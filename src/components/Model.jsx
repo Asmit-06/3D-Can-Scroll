@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 import { useRef, useEffect } from "react";
 import beep from "/src/assets/single_beep.mp3";
 export  function Model() {
-  const { scene } = useGLTF("/src/assets/josta.glb");
+  const { scene } = useGLTF("/josta.glb");
   const modelRef = useRef();
   const audioRef = useRef(new Audio(beep));
   
