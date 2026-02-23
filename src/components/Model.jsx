@@ -3,7 +3,7 @@ import { useGLTF } from "@react-three/drei";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import beep from "/src/assets/single_beep.mp3";
 export  function Model() {
   const { scene } = useGLTF("/src/assets/josta.glb");
