@@ -23,6 +23,8 @@
 
 - ⚡ Optimized performance with React Three Fiber
 
+# Deployed Link
+- https://3d-can-scroll.vercel.app
 
 # 📌 Inspiration
 
