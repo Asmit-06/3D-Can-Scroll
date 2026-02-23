@@ -1,16 +1,33 @@
-# React + Vite
+# 🥤 3D Soda Scroll Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- An interactive 3D web experience where a soda can smoothly moves downward through different sections as the user scrolls. Built using modern frontend tools with smooth animations and immersive visuals.
+# 🚀 Tech Stack
 
-Currently, two official plugins are available:
+- React – Component-based UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React Three Fiber (R3F) – Three.js renderer for React
 
-## React Compiler
+- Three.js – 3D rendering
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- GSAP – Scroll-based animations
 
-## Expanding the ESLint configuration
+- Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ✨ Features
+
+- 🥤 Interactive 3D soda can model
+
+- 🎯 Scroll-triggered animations using GSAP
+
+- 🧠 Smooth section transitions
+
+- ⚡ Optimized performance with React Three Fiber
+
+
+# 📌 Inspiration
+
+- This project was inspired by a Three.js scroll animation tutorial on YouTube that demonstrates moving 3D objects based on user scroll input. Here’s the video for context:
+
+- 👉 https://youtu.be/rbIbvw6c53k
+
+- I used the concepts demonstrated there to build my own soda-can scroll experience.
