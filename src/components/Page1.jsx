@@ -5,8 +5,8 @@ export function Page1() {
           digital <br /> Evolution
         </h1>
 
-        <p className="text-3xl tracking-tight">transform your brand identity</p>
-        <p className="w-[50%] text-[13px] text-center font-bolc">
+        <p className="herop1 text-3xl tracking-tight">transform your brand identity</p>
+        <p className="herop2 w-[50%] text-[13px] text-center font-bolc">
           experience the next generation of digital products with emmersive
           experience that blends innovation with functionality,helping brand
           standout in the digital landscape

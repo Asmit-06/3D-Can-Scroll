@@ -4,7 +4,7 @@ export function Page3(){
       <div className="scan-info absolute top-0 w-[100vw] flex justify-between p-[2em]">
 
         <div className="product-id ">
-          <h2 className="absolute left-3" >#76830</h2>
+          <h2 className="code absolute left-3" >#76830</h2>
         </div>
         <div className="product-description absolute right-10">
           <p>Transform your digital identity</p>
